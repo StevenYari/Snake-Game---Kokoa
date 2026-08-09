@@ -1,8 +1,8 @@
-# 🐍 Snake Game — Arduino + OLED + Buzzer
+# Snake Game — Arduino + OLED + Buzzer
 
 Juego Snake clásico para Arduino con pantalla OLED SSD1306 y efectos de sonido en buzzer pasivo.
 
-## 🎮 Características
+##  Características
 
 - Pantalla OLED 128×64 (SSD1306, I2C)
 - 4 botones direccionales
@@ -15,7 +15,7 @@ Juego Snake clásico para Arduino con pantalla OLED SSD1306 y efectos de sonido 
 - Generación aleatoria de frutas
 - Detección de colisión con paredes y cuerpo
 
-## 🧰 Hardware necesario
+##Componentes necesario
 
 | Componente | Cantidad |
 |---|---|
@@ -26,7 +26,7 @@ Juego Snake clásico para Arduino con pantalla OLED SSD1306 y efectos de sonido 
 | Resistencias 10kΩ (pull-down, opcional) | 4 |
 | Cables y protoboard | — |
 
-## 🔌 Conexiones
+##Conexiones
 
 ### OLED SSD1306 (I2C)
 | OLED | Arduino |
@@ -63,7 +63,7 @@ Instalar desde el Library Manager del IDE de Arduino:
 - **Adafruit GFX Library** — `Adafruit Industries`
 - **Adafruit SSD1306** — `Adafruit Industries`
 
-## 🚀 Cómo cargar
+##Cómo cargar
 
 1. Clonar o descargar este repositorio
 2. Abrir `snake_buzzer.ino` en el IDE de Arduino
@@ -71,7 +71,7 @@ Instalar desde el Library Manager del IDE de Arduino:
 4. Seleccionar tu placa y puerto en **Herramientas**
 5. Cargar con el botón Upload (→)
 
-## 🎵 Sonidos
+## Sonidos
 
 | Momento | Sonido |
 |---|---|
@@ -80,7 +80,7 @@ Instalar desde el Library Manager del IDE de Arduino:
 | Comer fruta | Chirp do-mi-sol |
 | Game over | Melodía descendente |
 
-## ⚙️ Configuración
+## Configuración
 
 En el archivo `.ino` puedes ajustar estas constantes:
 
@@ -94,6 +94,8 @@ En el archivo `.ino` puedes ajustar estas constantes:
 #define BUZZER_PIN           8   // Pin del buzzer
 ```
 
-## 📄 Licencia
+## Licencia
 
 MIT — libre para usar, modificar y compartir.
+
+## Inspirado en los siguientes repositorios: 
